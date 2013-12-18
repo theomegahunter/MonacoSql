@@ -147,7 +147,6 @@ public class MonacoConnectionPanel extends JPanel {
 				buffer.append(currentLine).append(" ");
 				currentLineOffset += currentLine.length() + 1;
 			}
-			// test
 			
 			return buffer.toString();
 		}
